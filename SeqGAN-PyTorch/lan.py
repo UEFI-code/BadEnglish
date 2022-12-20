@@ -1,5 +1,5 @@
 from coco_loader import coco_loader
-data = coco_loader('/mnt/data1/wch/data/cucu/coco/coco2014', split='train', ncap_per_img=1)
+data = coco_loader('/coco2014', split='train', ncap_per_img=1)
 sen = ''
 f = open('gene.data','r')
 lines = f.readlines()
